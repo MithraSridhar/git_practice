@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import wrappers.GenericWrappers;
 
 public class BooksPage extends GenericWrappers{
-	
+	//comment
 
 	public BooksPage(){
 		PageFactory.initElements(driver, this);				
