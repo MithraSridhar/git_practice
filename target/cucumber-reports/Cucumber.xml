@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.221">
+    <testcase classname="Testing of DemoQA application" name="Test case1: Add book to the profile" time="0.073">
+        <system-out><![CDATA[Given Opening the browser...................................................skipped
+And Enter username..........................................................skipped
+And Enter password..........................................................skipped
+When Click login............................................................skipped
+When Click bookstore........................................................skipped
+And Enter search text as "Git Pocket Guide".................................skipped
+And Click search result as "Git Pocket Guide"...............................skipped
+Then Get title of the book..................................................skipped
+And Click logout............................................................skipped
+]]></system-out>
+    </testcase>
+</testsuite>

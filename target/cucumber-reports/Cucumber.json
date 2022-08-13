@@ -1,0 +1,147 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-24T15:55:37.939Z",
+        "line": 19,
+        "name": "Test case1: Add book to the profile",
+        "description": "",
+        "id": "testing-of-demoqa-application;test-case1:-add-book-to-the-profile;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Opening the browser",
+            "match": {
+              "location": "stepdefinitions.CommonSteps.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 914000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter username",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter password",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click login",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.click_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click bookstore",
+            "match": {
+              "location": "stepdefinitions.ProfileSteps.click_bookstore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Enter search text as \"Git Pocket Guide\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click search result as \"Git Pocket Guide\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 730000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Get title of the book",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click logout",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@testcase1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing of DemoQA application",
+    "description": "",
+    "id": "testing-of-demoqa-application",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/TestCase1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
